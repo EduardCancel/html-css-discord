@@ -31,11 +31,13 @@ section{
 }
 .w-40{
 width: 40%;
+background-color: black;
 }
 
 .w-60{
         width: 60%;
-        min-height: 500px;
+        min-width: 400px;
+    
 }
     
 .w-80{
@@ -158,3 +160,21 @@ footer{
     }
 }
 
+.description{
+   .title{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+   }
+
+   .text{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   }
+}
+
+.immagine{
+    max-width: 100%;
+}
