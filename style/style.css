@@ -31,12 +31,12 @@ section{
 }
 .w-40{
 width: 40%;
-background-color: black;
 }
 
 .w-60{
         width: 60%;
-        min-width: 400px;
+        padding-top: 1rem;
+        padding-left: 1rem;
     
 }
     
@@ -82,7 +82,7 @@ header{
     } */
 
     .container{
-        background-color:#3161e0;
+        background-color: #3161e0;
     }
     .jumbotron{
         height: 400px;
@@ -126,8 +126,8 @@ header{
     }
 
     .w40,
-.w60{
-    height: 300px;
+    .w60{
+    height: 400px;
 }
 }
 
@@ -161,18 +161,20 @@ footer{
 }
 
 .description{
-   .title{
+    .title{
     padding-top: 1rem;
     padding-left: 1rem;
     font-size: 1.5rem;
-   }
+    text-align: center;
+    }
 
-   .text{
+    .text{
     padding-top: 1rem;
     padding-left: 1rem;
     font-size: 1rem;
-    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-   }
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    text-align: center;
+}
 }
 
 .immagine{
