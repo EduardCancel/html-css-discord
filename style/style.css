@@ -52,7 +52,12 @@ header{
 
     .actions{
         text-align: end;
-        color: white;
+
+        .bt{
+            border: 10px solid white;
+            border-radius: 20px;
+            background-color: white;
+        }
     }
 
     .menu{
