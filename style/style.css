@@ -57,13 +57,17 @@ header{
             border: 10px solid white;
             border-radius: 20px;
             background-color: white;
+            text-align: center;
         }
     }
 
     .menu{
         flex-grow: 2;
-        text-align: center;
         color: white;
+        list-style: none;
+        padding: 1rem;
+        display: flex;
+        
     }
 }
 
@@ -79,8 +83,38 @@ header{
         height: 400px;
 
         .content{
-            height: 100%;
-            background-color: orange;        
+            height: 100%;  
+            
+            .titolo{
+                text-align: center;
+                color: white;
+                margin-bottom: 2rem;
+                font-size: 2.5rem;
+            }
+
+            .body-jb{
+                text-align: center;
+                color: white;
+                margin-bottom: 5rem;
+                margin-left: 2rem;
+                margin-right: 2rem;
+                font-size: 1.5rem;
+            }
+
+            .bt-mac{
+                border: 15px solid white;
+            border-radius: 20px;
+            background-color: white;
+            text-align: center;
+            font-size: 1rem;
+            }
+            .bt-broswer{
+                border: 15px solid gray;
+            border-radius: 20px;
+            background-color: gray;
+            text-align: center;
+            font-size: 1rem;
+            }
         }
     }
 
@@ -92,7 +126,9 @@ header{
 }
 
 .jumbotron{
-    background-color: red;
+    background-image: url(../img-6/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 1rem;
 
     .content{
