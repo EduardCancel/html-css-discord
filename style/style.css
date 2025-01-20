@@ -180,3 +180,19 @@ footer{
 .immagine{
     max-width: 100%;
 }
+
+.avventura{
+    text-align: center;
+    padding: 3rem ;
+    font-size: 1.5rem;
+
+}
+.bt-mac-2{
+    padding: 10px;
+    background-color: violet;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    align-content: center;
+}
