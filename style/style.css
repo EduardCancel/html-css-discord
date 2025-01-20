@@ -105,12 +105,12 @@ header{
                 margin-right: 2rem;
                 font-size: 1.5rem;
             }
-            .bt-mac{
+            .bt-mac, .d-flex{
                 padding: 10px;
-                background-color: white;
                 border-radius: 20px;
                 border: none;
                 font-weight: bold;
+                justify-content: center;
             }
             .bt-broswer{
                 margin-left: 1rem;
@@ -146,7 +146,7 @@ header{
 .technology{
 
     .container{
-        min-height: 450px;
+    
     }
 }
 
@@ -194,7 +194,7 @@ footer{
     border-radius: 20px;
     border: none;
     font-weight: bold;
-    align-content: center;
+    justify-content: center;
 }
 
 .loghi{
