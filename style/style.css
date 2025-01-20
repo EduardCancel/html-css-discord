@@ -151,7 +151,7 @@ header{
 }
 
 footer{
-    background-color: aqua;
+    background-color: rgba(0, 0, 0, 0.627);
     
     .w-80, .d-flex{
         div{
@@ -195,4 +195,18 @@ footer{
     border: none;
     font-weight: bold;
     align-content: center;
+}
+
+.loghi{
+    padding-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+.title-end{
+    text-align:;
+    padding-top: 1.5rem;
+    padding-bottom:  1.5rem;
+    font-size: 1.5rem;
+    color: violet;
+
 }
