@@ -82,7 +82,7 @@ header{
     } */
 
     .container{
-        background-color: #3161e0;
+
     }
     .jumbotron{
         height: 400px;
@@ -209,4 +209,15 @@ footer{
     font-size: 1.5rem;
     color: violet;
 
+}
+
+.title-prodotto, .title-compagnia, .title-risorse, .title-norme{
+    font-size: 20px;
+    color: violet;
+    
+}
+
+.li-prodotto, .li-compagnia, .li-risorse, .li-norme{
+    font-size: 15px;
+    color: white;
 }
