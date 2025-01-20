@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --dis-primary-color: #3161e0;
+}
+
+section{
+    padding: 1rem;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.w-20{
+    width: 20%;
+}
+.w-40{
+width: 40%;
+}
+
+.w-60{
+        width: 60%;
+}
+    
+.w-80{
+        width: 80%;
+}
+
+header{
+    background-color:#3161e0;
+    padding: 1rem 0;
+    display: flex;
+
+    .logo,
+    .actions{
+        flex-grow: 1;
+    }
+
+    .actions{
+        text-align: end;
+        color: white;
+    }
+
+    .menu{
+        flex-grow: 2;
+        text-align: center;
+        color: white;
+    }
+}
+
+.debug{
+    /* *{
+        border: 1px solid;
+    } */
+
+    .container{
+        background-color:#3161e0
+    }
+    .jumbotron{
+        height: 400px;
+
+        .content{
+            height: 100%;
+            background-color: orange;        
+        }
+    }
+
+    .w40,
+.w60{
+    height: 300px;
+    background-color: red;
+}
+}
+
+.jumbotron{
+    background-color: red;
+    padding: 1rem;
+
+    .content{
+        width: 70%;
+        margin: auto;
+    }
+}
+
+.technology{
+
+    .container{
+        min-height: 450px;
+    }
+}
+
+footer{
+    background-color: aqua;
+    
+    .w-80, .d-flex{
+        div{
+            flex-grow: 1;
+        }
+    }
+}
